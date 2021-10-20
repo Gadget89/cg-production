@@ -4,11 +4,12 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import "./cube.css"
 
-const Cube = ({ heading, subHeading, bttnText }) => (
-<div className="cube-container">
+const Cube = ({ heading, subHeading, bttnText, anchor }) => (
+<div className="content">
+    <div className="cube-container">
               <div className="photo-cube">
                 <div className="front photo-desc">
-                  <Link to="/">
+                  <Link to={ anchor }>
                     <h3 className="secondary-header">{ heading }</h3>
                     <StaticImage 
                         src="../images/gatsby-astronaut.png"
@@ -21,7 +22,7 @@ const Cube = ({ heading, subHeading, bttnText }) => (
                 </div>
                 <div className="back photo-desc">
                   <Link
-                    to="/"
+                    to={ anchor }
                     style={{
                       border: 'none',
                       borderImage: 'none',
@@ -60,8 +61,10 @@ const Cube = ({ heading, subHeading, bttnText }) => (
             quality={100}
             formats={["auto", "webp", "avif"]}
             alt="A Gatsby astronaut"
-          />                </div>
+          />                
+          </div>
               </div>
+            </div>
             </div>
 )
 

@@ -2,14 +2,14 @@
 /* ---- Layout Containers ---- */
 
 .content {
-    /* margin: 0 auto;
-    width: fit-content;
-    max-width: 90vw; */
+    /* margin: 0 auto; */
+    /* width: fit-content; */
+    max-width: 90vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
-    min-height: 70vh;
+    /* width: 100vw; */
+    /* min-height: 70vh; */
   }
   
   .secondary-header {
@@ -190,16 +190,26 @@
   
   @media (min-width: 769px) {
     .cube-container {
-      float: left;
-      /* margin-left: 16.6%; */
+      /* float: left; */
+      margin-left: 16.6%;
       /* margin-left: 14vw; */
     }
-    .centerWrapper {
+    .content {
+        margin: 0;
+        display: inline-block;
+    }
+    #centerMe {
+        width: 72vw;
+        padding-top: 20vh;
+        margin: 0 auto;
+    }
+
+    /* .centerWrapper {
       width: 50%;
-    }
-    .contentContainer {
+    } */
+    /* .contentContainer {
       margin-top: 36vh;
-    }
+    } */
   }
   @media (min-width: 1025px) {
     /* .cube-container:first-child {
