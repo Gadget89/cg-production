@@ -1,33 +1,49 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import "./header.css"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+  <header>
+    <ul>
+      <li>
+        <h1 style={{ margin: 0 }}>
+        <Link to="/">
+          <StaticImage
+            src="../images/logo_slim.png"
+            width={25}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="A Gatsby astronaut"
+          />
         </Link>
-      </h1>
-    </div>
+        </h1>
+      </li>
+      <li>
+        <input placeholder="Search" type="text"></input>
+        <Link to="/">
+          <StaticImage
+            src="../images/search_icon.png"
+            width={25}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="A Gatsby astronaut"
+          />
+        </Link>
+      </li>
+      <li>
+        <Link to="/">
+          <StaticImage
+            src="../images/menu_icon.png"
+            width={25}
+            quality={100}
+            formats={["auto", "webp", "avif"]}
+            alt="A Gatsby astronaut"
+          />
+        </Link>
+      </li>
+    </ul>
   </header>
 )
 
