@@ -1,0 +1,21 @@
+.inputSpace {
+    border: solid black 1.5px;
+    margin-top: 2rem;
+    width: 50vw;
+}
+.agreement {
+    margin-top: -1rem;
+    padding-left: 2rem;
+}
+.center {
+    width: 50vw;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 480px) {
+    .center {
+        width: 90vw;
+    }
+    .inputSpace {
+        width: 90vw;
+    }
+  }
