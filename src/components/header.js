@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
         </Link>
         </h1>
       </li>
-      <li>
+      {/* <li>
         <input placeholder="Search" type="text"></input>
         <Link to="/">
           <StaticImage
@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
             alt="A Gatsby astronaut"
           />
         </Link>
-      </li>
+      </li> */}
       <li>
         <Link to="/">
           <StaticImage
