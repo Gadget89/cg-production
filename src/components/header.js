@@ -20,18 +20,6 @@ const Header = ({ siteTitle }) => (
         </Link>
         </h1>
       </li>
-      {/* <li>
-        <input placeholder="Search" type="text"></input>
-        <Link to="/">
-          <StaticImage
-            src="../images/search_icon.png"
-            width={25}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
-          />
-        </Link>
-      </li> */}
       <li>
         <Link to="/">
           <StaticImage
