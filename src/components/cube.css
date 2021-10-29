@@ -134,10 +134,11 @@
     width: 220px;
     height: 220px;
     transform-style: preserve-3d;
-    /* -moz-transform-style: preserve-3d; */
+    -moz-transform-style: preserve-3d;
   }
   
   .photo-cube:hover,
+  .phot-cube:active,
   .photo-cube:focus-within {
     transform: rotateY(-270deg);
     cursor: none;
@@ -226,4 +227,8 @@
   /* @media (max-width: 320px) {
   
   } */
-  
+  @media(hover: hover) and (pointer: fine) {
+    .photo-cube:hover {
+      transform: rotateY(-270deg);
+    }
+}
