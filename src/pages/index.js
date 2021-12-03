@@ -15,18 +15,24 @@ const IndexPage = () => (
       subHeading="All this stuff."
       bttnText="Check it out"
       anchor="/design"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg" 
     />
     <Cube 
       heading="DEVELOP"
       subHeading="The magic happens."
       bttnText="Learn more"
       anchor="/develop"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569364/cg/final.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569364/cg/final.jpg"
     />
     <Cube 
       heading="CONNECT"
       subHeading="Another sub heading."
       bttnText="Let's chat"
       anchor="/connect"
+      img1="http://placekitten.com/g/400/400"
+      img2="http://placekitten.com/g/400/400"
     />
     </div>
   </Layout>

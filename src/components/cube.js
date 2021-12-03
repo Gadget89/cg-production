@@ -1,23 +1,17 @@
 import * as React from "react"
 // import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { GatsbyImage } from "gatsby-plugin-image"
 import "./cube.css"
 
-const Cube = ({ heading, subHeading, bttnText, anchor }) => (
+const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2 }) => (
 <div className="content">
     <div className="cube-container">
               <div className="photo-cube">
                 <div className="front photo-desc">
                   <Link to={ anchor }>
                     <h3 className="secondary-header">{ heading }</h3>
-                    <StaticImage 
-                        src="../images/gatsby-astronaut.png"
-                        width={220}
-                        quality={100}
-                        formats={["auto", "webp", "avif"]}
-                        alt="Icon of magniging glass"
-                    />
+                    <img src={img1} alt={subHeading} />
                   </Link>
                 </div>
                 <div className="back photo-desc">
@@ -47,21 +41,10 @@ const Cube = ({ heading, subHeading, bttnText, anchor }) => (
                   </Link>
                 </div>
                 <div className="left">
-                <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={220}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
-          />                </div>
+                <img src={img2} alt={subHeading} />
+                </div>
                 <div className="right">
-                <StaticImage
-            src="../images/gatsby-astronaut.png"
-            width={220}
-            quality={100}
-            formats={["auto", "webp", "avif"]}
-            alt="A Gatsby astronaut"
-          />                
+                <img src={img2} alt={subHeading} />           
           </div>
               </div>
             </div>
