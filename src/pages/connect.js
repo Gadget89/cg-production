@@ -8,8 +8,10 @@ import "./connect.css"
 
 const ConnectPage = () => (
   <Layout>
-    <Seo title="Connect" />
-    <h2 className="heroHeading">Let's talk</h2>
+    <Seo title="Let's Talk" />
+    <h2 style={{
+      margin: '-45px 60px'
+    }}>CONNECT</h2>
     <StaticImage 
       src="../images/reflect.jpg"
       width={1080}

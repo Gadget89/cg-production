@@ -8,7 +8,7 @@ import Cube from '../components/cube'
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="welcome" />
     <div id="centerMe">
     <Cube 
       heading="DESIGN"
@@ -17,6 +17,7 @@ const IndexPage = () => (
       anchor="/design"
       img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg"
       img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg" 
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
     />
     <Cube 
       heading="DEVELOP"
@@ -24,7 +25,8 @@ const IndexPage = () => (
       bttnText="Learn more"
       anchor="/develop"
       img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569364/cg/final.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569364/cg/final.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
     />
     <Cube 
       heading="CONNECT"
@@ -33,6 +35,7 @@ const IndexPage = () => (
       anchor="/connect"
       img1="http://placekitten.com/g/400/400"
       img2="http://placekitten.com/g/400/400"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
     />
     </div>
   </Layout>

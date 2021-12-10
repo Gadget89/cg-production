@@ -606,6 +606,10 @@ footer {
 .payloadWrapper {
   min-height: 88vh;
 }
+.navIcon {
+  position: fixed;
+  right: 0;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;

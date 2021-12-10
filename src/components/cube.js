@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 // import { GatsbyImage } from "gatsby-plugin-image"
 import "./cube.css"
 
-const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2 }) => (
+const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2, img3 }) => (
 <div className="content">
     <div className="cube-container">
               <div className="photo-cube">
@@ -26,7 +26,7 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2 }) => (
                     <h3 className="secondary-header">{ heading }</h3>
                     <p
                       style={{
-                        margin: '42px 10px 33px',
+                        margin: '62px 10px 33px',
                         minHeight: '88px',
                         lineHeight: '1.25',
                         color: 'white'
@@ -44,7 +44,7 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2 }) => (
                 <img src={img2} alt={subHeading} />
                 </div>
                 <div className="right">
-                <img src={img2} alt={subHeading} />           
+                <img src={img3} alt={subHeading} />           
           </div>
               </div>
             </div>
