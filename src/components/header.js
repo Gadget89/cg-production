@@ -27,7 +27,7 @@ const Header = props => {
       <div>
         <StaticImage 
       src="../images/gatsby-astronaut.png"
-      width={50}
+      width={30}
       quality={100}
       formats={["auto", "webp", "avif"]}
       alt="Icon of magniging glass"

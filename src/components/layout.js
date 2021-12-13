@@ -7,7 +7,7 @@
 
 import React, { useState } from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Header from "./header"
@@ -27,29 +27,36 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <StaticImage 
-        src="../images/logo_slim.png"
-        width={50}
-        quality={100}
-        formats={["auto", "webp", "avif"]}
-        alt="Icon of magniging glass"
-        onClick={() => setShow(true)}
-      />
+    <div style={{
+      backgroundColor: "blue",
+      margin: "0.5rem"
+    }}>
+      <Link to="/">
+        <StaticImage 
+          src="../images/logo_slim.png"
+          width={30}
+          quality={100}
+          formats={["auto", "webp", "avif"]}
+          alt="Icon of magniging glass"
+        />
+      </Link>
       <StaticImage 
         src="../images/menu_icon.png"
-        width={50}
+        width={30}
         quality={100}
         formats={["auto", "webp", "avif"]}
         alt="Icon of magniging glass"
         onClick={() => setShow(true)}
-        className="navIcon"
+        className="button"
       />
       <Header onClose={() => setShow(false)} show={show} />
+      
       <div>
         <main className="payloadWrapper">{children}</main>
         <footer>
           © {new Date().getFullYear()}, {data.site.siteMetadata?.title || `Title`}
         </footer>
+      </div>
       </div>
     </>
   )

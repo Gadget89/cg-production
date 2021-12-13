@@ -9,7 +9,8 @@ const DesignPage = () => (
   <Layout>
     <Seo title="design" />
     <h2 style={{
-      margin: '-45px 60px'
+      margin: '-34px 34px',
+      position: 'inherit'
     }}>DESIGN</h2>
     <div id="centerMe">
     <Cube 
