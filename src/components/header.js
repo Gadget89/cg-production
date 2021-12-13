@@ -26,7 +26,7 @@ const Header = props => {
       </div>
       <div>
         <StaticImage 
-      src="../images/gatsby-astronaut.png"
+      src="../images/close.png"
       width={30}
       quality={100}
       formats={["auto", "webp", "avif"]}

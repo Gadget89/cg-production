@@ -1,4 +1,5 @@
 import * as React from "react"
+import { StaticImage } from "gatsby-plugin-image"
 // import { Link } from "gatsby"
 import Cube from '../components/cube'
 
@@ -41,6 +42,14 @@ const DesignPage = () => (
       img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
     />
     </div>
+    <StaticImage 
+      src="../images/reflect.jpg"
+      width={1080}
+      quality={100}
+      formats={["auto", "webp", "avif"]}
+      alt="Icon of magniging glass"
+      className="hero"
+    />
   </Layout>
 )
 

@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
         />
       </Link>
       <StaticImage 
-        src="../images/menu_icon.png"
+        src="../images/menu.png"
         width={30}
         quality={100}
         formats={["auto", "webp", "avif"]}
