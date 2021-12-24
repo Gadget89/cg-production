@@ -10,7 +10,7 @@ const ConnectPage = () => (
   <Layout>
     <Seo title="Let's Talk" />
     <h2 style={{
-      margin: '-34px 34px',
+      margin: '-34px 30px',
       position: 'inherit'
     }}>CONNECT</h2>
     <StaticImage 

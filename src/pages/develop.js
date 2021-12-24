@@ -1,47 +1,37 @@
 import * as React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Cube from '../components/cube'
+// import Cube from '../components/cube'
 
 
 const DevelopPage = () => (
   <Layout>
     <Seo title="develop" />
     <h2 style={{
-      margin: '-34px 34px',
+      margin: '-34px 30px',
       position: 'inherit'
     }}>DEVELOP</h2>
-    <div id="centerMe">
-    <Cube 
-      heading="SUPER FAST WEBSITES"
-      subHeading="Amazing by design."
-      bttnText="Learn more"
-      anchor="/design"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg" 
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
+    <StaticImage 
+      src="../images/reflect.jpg"
+      width={1080}
+      quality={100}
+      formats={["auto", "webp", "avif"]}
+      alt="Icon of magniging glass"
+      className="hero"
     />
-    <Cube 
-      heading="CONTENT DRIVEN"
-      subHeading="Is the world ready for you?"
-      bttnText="Tell me more"
-      anchor="/develop"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638757243/cg/final-3.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638757243/cg/final-3.jpg"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
-    />
-    <Cube 
-      heading="SERVICES"
-      subHeading="Tell us about your dream website!"
-      bttnText="Let's chat"
-      anchor="/connect"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638757243/cg/final-3.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638756430/cg/final-2mx.jpg"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
-    />
-    </div>
+    <h3>Handcrafted Websites</h3>
+    <p>
+      Fast sites use modern web technologies.  Combined with responsive web design, your website can stand apart!
+    </p>
+    <h3>CONTENT MARKETING</h3>
+    <p>
+      Any plan is better than no plan.
+    </p>
+    <h3>UX</h3>
   </Layout>
 )
 

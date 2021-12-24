@@ -1,0 +1,23 @@
+.main_heading {
+    color: cyan;
+}
+.hero {
+    margin-bottom: 1rem;
+}
+.bttn {
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+    /* box-shadow: 0 18px 40px 5px rgba(0, 0, 0, 0.4); */
+    border-radius: 70px;
+    padding: 1rem 2rem;
+    max-width: fit-content;
+    display: block;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+@media only screen and (min-width: 480px) {
+    .bttn {
+        background-color: red;
+    }
+  }

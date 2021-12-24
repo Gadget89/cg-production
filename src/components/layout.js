@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
   return (
     <>
     <div style={{
-      backgroundColor: "blue",
       margin: "0.5rem"
     }}>
       <Link to="/">
