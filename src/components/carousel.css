@@ -1,6 +1,8 @@
-.hero {
+/* .hero {
     width: 100vw;
-}
+    height: 300px;
+    overflow: hidden;
+} */
 .carousel {
     overflow: hidden;
 }
@@ -10,11 +12,11 @@
 }
 .carousel-item {
     display: inline-flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    height: 200px;
-    background-color: blueviolet;
-    color: blue;
+    height: 300px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0), rgba(188, 188, 188, 0.47)); */
+    color: white;
 }
 .indicators {
     display: flex;
@@ -24,6 +26,28 @@
     margin: 5px;
 }
 .indicators > button.active {
-    background-color: green;
+    background-color: grey;
     color: #fff;
 }
+.sub-heading {
+    white-space: normal;
+    width: 90vw;
+    margin: 0.5rem;
+    position: absolute;
+}
+.short-content {
+    margin-top: 3rem;
+}
+.hero-img {
+    width: 100vw;
+}
+.overlay {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(188, 188, 188, 0.47));
+    width: 100vw;
+    /* background-color: cyan; */
+}
+@media only screen and (min-width: 580px) {
+    .sub-heading {
+        width: 50vw;
+    }
+  }
