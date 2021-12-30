@@ -15,27 +15,27 @@ const IndexPage = () => (
       subHeading="All this stuff."
       bttnText="Check it out"
       anchor="/design"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569253/cg/CP1_roybal.jpg" 
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg" 
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg"
     />
     <Cube 
       heading="DEVELOP"
       subHeading="The magic happens."
       bttnText="Learn more"
       anchor="/develop"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569364/cg/final.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
     />
     <Cube 
       heading="CONNECT"
       subHeading="Another sub heading."
       bttnText="Let's chat"
       anchor="/connect"
-      img1="http://placekitten.com/g/400/400"
-      img2="http://placekitten.com/g/400/400"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638754289/cg/final_bw.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
     />
     </div>
   </Layout>

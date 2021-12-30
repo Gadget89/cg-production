@@ -34,17 +34,23 @@
     width: 90vw;
     margin: 0.5rem;
     position: absolute;
+    text-shadow: 2px 2px 5px grey;
 }
 .short-content {
     margin-top: 3rem;
 }
 .hero-img {
     width: 100vw;
+    height: 300px;
+    object-fit: cover;
 }
 .overlay {
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(188, 188, 188, 0.47));
     width: 100vw;
     /* background-color: cyan; */
+}
+.cta {
+    margin-top: 14rem;
 }
 @media only screen and (min-width: 580px) {
     .sub-heading {

@@ -11,7 +11,7 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2, img3 }) => (
                 <div className="front photo-desc">
                   <Link to={ anchor }>
                     <h3 className="secondary-header">{ heading }</h3>
-                    <img src={img1} alt={subHeading} />
+                    <img className="cube-img" src={img1} alt={subHeading} />
                   </Link>
                 </div>
                 <div className="back photo-desc">
@@ -26,7 +26,7 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2, img3 }) => (
                     <h3 className="secondary-header">{ heading }</h3>
                     <p
                       style={{
-                        margin: '62px 10px 33px',
+                        margin: '62px 10px 30px',
                         minHeight: '88px',
                         lineHeight: '1.25',
                         color: 'white'
@@ -41,10 +41,10 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2, img3 }) => (
                   </Link>
                 </div>
                 <div className="left">
-                <img src={img2} alt={subHeading} />
+                <img className="cube-img" src={img2} alt={subHeading} />
                 </div>
                 <div className="right">
-                <img src={img3} alt={subHeading} />           
+                <img className="cube-img" src={img3} alt={subHeading} />           
           </div>
               </div>
             </div>

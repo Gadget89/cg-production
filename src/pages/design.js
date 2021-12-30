@@ -1,5 +1,5 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 // import { Link } from "gatsby"
 import "./page-styles.css"
 import Carousel, { CarouselItem } from "../components/carousel"
@@ -18,15 +18,16 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
       <CarouselItem 
         heading="Brand identity" 
         subHeading="Use the power of design to shape how people of Earth think of your company.  Feel confident knowing you are building on your brand’s heritage going into the future! Streamline your branding across physical and digital products."
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/c_scale,w_647/v1638569229/CP1_roybal.jpg">
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
+          <button>Learn More</button>
           <img src={heroImg} alt="Alt" />
       </CarouselItem>
       <CarouselItem 
         heading="Content Marketing" 
         subHeading="Launch campaigns and measure success.  Use insights into customer behavior to increase sales.  It all starts with a plan, let us help you take your business to the next level!"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/c_scale,w_647/v1638569229/CP1_roybal.jpg">
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/jj-ying-WmnsGyaFnCQ-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />
@@ -34,7 +35,7 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
       <CarouselItem 
         heading="Service" 
         subHeading="The cat jumped over the moon."
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/c_scale,w_647/v1638569229/CP1_roybal.jpg">
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />

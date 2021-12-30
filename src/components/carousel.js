@@ -10,6 +10,7 @@ export const CarouselItem = ({ children, width, heading, subHeading, heroImg }) 
             <div className="overlay">
                 <h2  className="sub-heading">{heading}</h2>
                 <p className="sub-heading short-content">{subHeading}</p>
+                <button className="sub-heading cta">Learn More</button>
                 <img className="hero-img" src={heroImg} alt="Whatever"/>
             </div>
         </div>

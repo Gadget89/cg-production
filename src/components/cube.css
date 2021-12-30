@@ -31,26 +31,24 @@
   /* ---- Page Elements ---- */
   .call-to-action {
     font-size: 0.8em;
-    background-color: white;
-    color: var(--primary);
-    width: fit-content;
+    width: 206px;
     line-height: 1.15;
     font-weight: 600;
     display: block;
-    text-decoration: none;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
     padding: 6px 12px;
-    margin: 0 0 0 auto;
-    border: solid 1px white;
-    border-radius: var(--borderRadius);
+    margin: 0 6px 0 auto;
+    border-radius: 1rem;
     /* box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.1); */
     cursor: pointer;
   }
   
-  .call-to-action:hover {
-    text-decoration: underline;
-  }
+  /* .call-to-action button {
+    text-decoration: none;
+    background-color: yellow;
+  } */
   
   .date-wrapper {
     font-size: 0.8em;
@@ -128,6 +126,9 @@
   /* .cube-container:focus- ~ .cube-container {
     margin-bottom: 2rem;
   } */
+  .cube-img {
+    height: 220px;
+  }
   
   .photo-cube {
     transition: transform 2s ease-in-out;
@@ -153,6 +154,7 @@
     display: block;
     position: absolute;
     overflow: hidden;
+    object-fit: cover;
   }
   
   .front {
