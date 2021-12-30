@@ -15,27 +15,27 @@ const IndexPage = () => (
       subHeading="All this stuff."
       bttnText="Check it out"
       anchor="/design"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg" 
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731005/fakurian-design-bMSA5-tLFao-unsplash.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
     />
     <Cube 
       heading="DEVELOP"
       subHeading="The magic happens."
       bttnText="Learn more"
       anchor="/develop"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg"
     />
     <Cube 
       heading="CONNECT"
       subHeading="Another sub heading."
       bttnText="Let's chat"
       anchor="/connect"
-      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
-      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
-      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/scott-webb-sk59I1qRfEM-unsplash.jpg"
+      img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
+      img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
+      img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
     />
     </div>
   </Layout>
