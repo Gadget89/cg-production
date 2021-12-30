@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
         formats={["auto", "webp", "avif"]}
         alt="Icon of magniging glass"
         onClick={() => setShow(true)}
-        className="button"
+        className="navIcon"
       />
       <Header onClose={() => setShow(false)} show={show} />
       
