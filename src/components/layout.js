@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           alt="Icon of magniging glass"
         />
       </Link>
+      <Header onClose={() => setShow(false)} show={show} />
       <StaticImage 
         src="../images/menu.png"
         width={30}
@@ -46,12 +47,8 @@ const Layout = ({ children }) => {
         formats={["auto", "webp", "avif"]}
         alt="Icon of magniging glass"
         onClick={() => setShow(true)}
-        style={{
-          position: "absolute"
-        }}
+        className="navIcon"
       />
-      <Header onClose={() => setShow(false)} show={show} />
-      
       <div>
         <main className="payloadWrapper">{children}</main>
         <footer>
