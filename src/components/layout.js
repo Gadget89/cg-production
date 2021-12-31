@@ -39,16 +39,15 @@ const Layout = ({ children }) => {
           alt="Icon of magniging glass"
         />
       </Link>
+      <div className="navIcon">
+        <img 
+          src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640912977/menu_icon.png" 
+          alt="Alt text" 
+          onClick={() => setShow(true)}
+        />
+      </div>
       <Header onClose={() => setShow(false)} show={show} />
-      <StaticImage 
-        src="../images/menu.png"
-        width={30}
-        quality={100}
-        formats={["auto", "webp", "avif"]}
-        alt="Icon of magniging glass"
-        onClick={() => setShow(true)}
-        className="navIcon"
-      />
+      
       <div>
         <main className="payloadWrapper">{children}</main>
         <footer>
