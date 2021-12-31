@@ -1,7 +1,7 @@
 import * as React from "react"
 // import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 import "./header.css"
 
 const Header = props => {
@@ -24,16 +24,12 @@ const Header = props => {
           </li>
         </ul>
       </div>
-      <div>
-        <StaticImage 
-      src="../images/close.png"
-      width={30}
-      quality={100}
-      formats={["auto", "webp", "avif"]}
-      alt="Icon of magniging glass"
-      onClick={props.onClose}
-      className="button"
-    />
+      <div className="navIcon">
+        <img 
+          src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640914898/close.png" 
+          alt="Alt text" 
+          onClick={props.onClose}
+        />
       </div>
     </div>
   </header>

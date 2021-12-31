@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       </Link>
       <div className="navIcon">
         <img 
-          src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640912977/menu_icon.png" 
+          src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640914923/menu.png" 
           alt="Alt text" 
           onClick={() => setShow(true)}
         />

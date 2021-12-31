@@ -609,6 +609,8 @@ footer {
   min-height: 88vh;
 }
 .navIcon {
+  height: 34px;
+  width: 34px;
   position: fixed;
   right: 0.5rem;
   top: 0.5rem;
