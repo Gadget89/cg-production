@@ -1,6 +1,6 @@
 import * as React from "react"
 // import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -13,15 +13,8 @@ const ConnectPage = () => (
       margin: '-34px 30px',
       position: 'inherit'
     }}>CONNECT</h2>
-    <StaticImage 
-      src="../images/reflect.jpg"
-      width={1080}
-      quality={100}
-      formats={["auto", "webp", "avif"]}
-      alt="Icon of magniging glass"
-      className="hero"
-    />
-    <p className="center">Tell us about your dream and let's build something amazing together! Don't be shy, we are ready to handcraft a stunning website for your business! Fill out the form below and we'll be in touch to let you know if our services are right for your business needs.</p>
+    <p className="center"> In order to make your website dreams come true, we need to turn your abstract idea for a website into some cohesive words and sentences.  Once we can figure out what the heck you want, we’ll do our best to deliver the best options for you!</p>
+    <p className="center">To kick off the process, please fill out this application.  We’ll look things over and respond quickly to let you know if we can be of service.</p>
     <form className="center" action="/">
       <label for="name">
         <input className="inputSpace" placeholder="Name" type="text" id="name" name="name"/><br></br>
@@ -36,15 +29,26 @@ const ConnectPage = () => (
         <input className="inputSpace" placeholder="Phone" type="phone" id="phone" name="phone"/><br></br>
       </label> 
       <label for="budget">
-        <input className="inputSpace" placeholder="Project budget" type="text" id="budget" name="budget"/><br></br>
+        <input className="inputSpace" placeholder="Website" type="text" id="website" name="website"/><br></br>
       </label> 
       <label for="description">
         <input className="inputSpace" placeholder="Project description" type="text" id="description" name="description"/><br></br>
       </label>
+      <ul style={{marginTop: "1rem"}}>
+        <li>
+          <input type="checkbox" id="branding" name="branding" value="More information on branding"/>
+          <label for="branding"> I would like more information on branding, marketing and design</label><br></br>
+        </li>
+        <li>
+          <input type="checkbox" id="dev" name="website" value="More information on a new website"/>
+          <label for="dev"> I would like more information on a new website</label><br></br>
+        </li>
+      </ul>
       <label for="submit">
-        <input className="inputSpace submit" type="submit" value="Submit"/>
+      <input className="inputSpace submit" type="submit" value="SUBMIT"/>
       </label>
     </form> 
+      
   </Layout>
 )
 

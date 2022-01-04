@@ -6,6 +6,7 @@ import Carousel, { CarouselItem } from "../components/carousel"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Cube from '../components/cube'
 
 const DesignPage = ( heading, subHeading, heroImg ) => (
   <Layout>
@@ -41,6 +42,40 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
           <img src={heroImg} alt="Alt" />
       </CarouselItem>
     </Carousel>
+    <div 
+      style={{
+        width: "fit-content",
+        margin: "0 auto"
+      }}
+    >
+      <Cube 
+        heading="GETTING STARTED"
+        subHeading="Find your bearings and get inspired!"
+        bttnText="Learn More"
+        anchor="/design"
+        img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+        img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
+        img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+      />
+      <Cube 
+        heading="PLANNING"
+        subHeading="Let's put those big ideas to work."
+        bttnText="I'm in"
+        anchor="/design"
+        img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+        img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
+        img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+      />
+      <Cube 
+        heading="REIMAGINE"
+        subHeading="Ready for the next level, us too!"
+        bttnText="Check it out"
+        anchor="/design"
+        img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+        img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
+        img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
+      />
+    </div>
   </Layout>
 )
 
