@@ -29,6 +29,7 @@ const DevelopPage = ( heading, subHeading, heroImg ) => (
       <CarouselItem 
         heading="RESPONSIVE DESIGN" 
         subHeading="Awesome design has to look great on any screen!"
+        anchor="/"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/jj-ying-WmnsGyaFnCQ-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
@@ -37,6 +38,7 @@ const DevelopPage = ( heading, subHeading, heroImg ) => (
       <CarouselItem 
         heading="Service" 
         subHeading="We would love to work with you!"
+        anchor="/services"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>

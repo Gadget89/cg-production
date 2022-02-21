@@ -27,9 +27,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <div style={{
-      margin: "0.5rem"
-    }}>
+    <div>
       <Link to="/">
         <StaticImage 
           src="../images/logo_slim.png"
