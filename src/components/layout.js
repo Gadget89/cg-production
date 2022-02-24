@@ -35,6 +35,7 @@ const Layout = ({ children }) => {
           quality={100}
           formats={["auto", "webp", "avif"]}
           alt="Icon of magniging glass"
+          className="escape-hatch"
         />
       </Link>
       <div className="navIcon">

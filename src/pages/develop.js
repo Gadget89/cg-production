@@ -9,28 +9,31 @@ import Carousel, { CarouselItem } from "../components/carousel"
 import Cube from '../components/cube'
 
 
-const DevelopPage = ( heading, subHeading, heroImg ) => (
+const DevelopPage = ( heading, subHeading, heroImg, anchor ) => (
   <Layout>
     <Seo title="develop" />
     <h2 style={{
-      margin: '-34px 30px',
+      margin: '-41px 44px',
       position: 'inherit'
     }}>DEVELOP</h2>
     <Carousel>
       <CarouselItem 
         heading="Modern Websites" 
         subHeading="Fast websites are made with modern technologies!"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg">
+        anchor="/"
+        cta="I'm in bruh"
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645483754/hoodh-ahmed-6mzjJDqYU0g-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
-          <button>Learn More</button>
+          <a to={anchor}>I'm in bruh</a>
           <img src={heroImg} alt="Alt" />
       </CarouselItem>
       <CarouselItem 
         heading="RESPONSIVE DESIGN" 
         subHeading="Awesome design has to look great on any screen!"
         anchor="/"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/jj-ying-WmnsGyaFnCQ-unsplash.jpg">
+        cta="No doubt"
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645483764/ekmeds-photos-DjLIn5mSptw-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />
@@ -39,6 +42,7 @@ const DevelopPage = ( heading, subHeading, heroImg ) => (
         heading="Service" 
         subHeading="We would love to work with you!"
         anchor="/services"
+        cta="Wut"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>

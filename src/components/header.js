@@ -14,14 +14,47 @@ const Header = props => {
       <div className="nav-body">
         <ul>
           <li>
-            <Link to="/design">DESIGN</Link>
+            <h2 className="align">
+              <Link className="link" to="/design">DESIGN</Link>
+            </h2>
           </li>
+          <ul>
+            <li className="align">
+              <Link className="link" to="/design">BLOG</Link>
+            </li>
+            <li className="align">
+              <Link className="link" to="/services">SERVICES</Link>
+            </li> 
+          </ul>
           <li>
-            <Link to="/develop">DEVELOP</Link>
+            <h2 className="align">
+              <Link className="link" to="/develop">DEVELOP</Link>
+            </h2>
           </li>
+          <ul>
+            <li className="align">
+              <Link className="link" to="/design">BLOG</Link>
+            </li>
+            <li className="align">
+              <Link className="link" to="/design">PORTFOLIO</Link>
+            </li>
+            <li className="align">
+              <Link className="link" to="/design">SERVICES</Link>
+            </li>
+          </ul>
           <li>
-            <Link to="/connect">CONNECT</Link>
+            <h2 className="align">
+              <Link className="link" to="/connect">CONNECT</Link>
+            </h2>
           </li>
+          <ul>
+            <li className="align">
+              <Link className="link" to="/design">ABOUT</Link>
+            </li>
+            <li className="align">
+              <Link className="link" to="/design">INQUIRY</Link>
+            </li>
+          </ul>
         </ul>
       </div>
       <div className="navIcon">

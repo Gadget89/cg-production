@@ -7,36 +7,87 @@ import "./services.css"
 
 const Services = () => (
   <Layout>
-    <Seo title="Services" />
-    <article>
-      <h2 style={{
-        margin: '-29vh 30px',
+    <Seo title="services" />
+    <h2 style={{
+        margin: '-41px 44px',
         position: 'absolute'
       }}>Services</h2>
-      <ul className="gradient-overlay">
+    <article>
+      <ul>
         <h2>Brand Identity Design</h2>
         <li>
-          Strategy
+          <h3>
+            Strategy
+          </h3>
         </li>
+        <ul>
+          <li>
+            UX
+          </li>
+          <li>
+            User Research
+          </li>
+          <li>
+            Identity System
+          </li>
+        </ul>
         <li>
-          Research
-        </li>
-        <li>
-          Identity System
+          <h3>
+            Design
+          </h3>
+          <ul>
+            <li>
+              Brandmarks
+            </li>
+            <li>
+              Wireframe
+            </li>
+            <li>
+              Mockups
+            </li>
+          </ul>
         </li>
       </ul>
-      <img className="img-float align-me" src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/jj-ying-WmnsGyaFnCQ-unsplash.jpg" alt="image" />
-      <ul className="gradient-overlay">
+      <ul>
         <h2>Web Services</h2>
         <li>
-          Design
+          <h3>
+            Design
+          </h3>
+          <ul>
+            <li>
+              UI
+            </li>
+            <li>
+              Wireframe
+            </li>
+            <li>
+              Mockups
+            </li>
+          </ul>
         </li>
         <li>
-          Development
+          <h3>
+            Development
+          </h3>
+          <ul>
+            <li>
+              Architecture
+            </li>
+            <li>
+              Content Strategy
+            </li>
+            <li>
+              Site Production
+            </li>
+            <li>
+              Maintenance
+            </li>
+          </ul>
         </li>
       </ul>
-      <img className="img-float" src="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg" alt="image" />
     </article>
+    <a className="anchor" href="/connect">Start a project</a>
   </Layout>
 )
 

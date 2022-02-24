@@ -12,7 +12,7 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
   <Layout>
     <Seo title="design" />
     <h2 style={{
-      margin: '-34px 30px',
+      margin: '-41px 44px',
       position: 'inherit'
     }}>DESIGN</h2>
     <Carousel>
@@ -20,7 +20,8 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
         heading="Brand identity" 
         subHeading="Use the power of design to shape how people of Earth think of your company.  Feel confident knowing you are building on your brand’s heritage going into the future! Streamline your branding across physical and digital products."
         anchor="/"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/amelie-mourichon-sv8oOQaUb-o-unsplash.jpg">
+        cta="I'm in bruh"
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645419128/autumn-mott-rodeheaver-gCduzLmwFYM-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />
@@ -29,7 +30,8 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
         heading="Content Marketing" 
         subHeading="Launch campaigns and measure success.  Use insights into customer behavior to increase sales.  It all starts with a plan, let us help you take your business to the next level!"
         anchor="/"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731006/jj-ying-WmnsGyaFnCQ-unsplash.jpg">
+        cta="I'm in bruh"
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645482251/will-turner-GTPT_fNFQiE-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />
@@ -38,7 +40,8 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
         heading="Service" 
         subHeading="The cat jumped over the moon."
         anchor="/services"
-        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg">
+        cta="I'm in bruh"
+        heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645482263/zetong-li-NAP14GEjvh8-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
           <img src={heroImg} alt="Alt" />

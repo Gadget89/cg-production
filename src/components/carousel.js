@@ -4,13 +4,13 @@ import React, { useEffect, useState } from "react"
 // import { GatsbyImage } from "gatsby-plugin-image"
 import "./carousel.css"
 
-export const CarouselItem = ({ children, width, heading, subHeading, heroImg, anchor }) => {
+export const CarouselItem = ({ children, width, heading, subHeading, heroImg, anchor, cta }) => {
     return (
         <div className="carousel-item" style={{ width: width }}>
             <div className="overlay">
                 <h2  className="sub-heading">{heading}</h2>
                 <p className="sub-heading short-content">{subHeading}</p>
-                <a href={anchor} className="sub-heading cta">Learn More</a>
+                <a href={anchor} className="sub-heading cta">{cta}</a>
                 <img className="hero-img" src={heroImg} alt="Whatever"/>
             </div>
         </div>

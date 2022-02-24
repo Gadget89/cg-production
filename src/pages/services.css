@@ -1,6 +1,27 @@
 article {
     display: flex;
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
+    width: fit-content;
+    margin: 0 auto;
+}
+ul {
+    padding: 1rem;
+}
+.anchor {
+    font-size: 0.8em;
+    width: 206px;
+    line-height: 1.15;
+    font-weight: 600;
+    background-color: lightgray;
+    display: block;
+    /* text-align: center; */
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 12px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    /* box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.1); */
+    cursor: pointer;
 }
 .gradient-overlay {
     list-style-type: square;
@@ -17,12 +38,12 @@ article {
 	position: relative;
 	z-index: -1;
 }
-@media (max-width: 375px) {
+@media (max-width: 800px) {
     article {
         display: inline-block;
         margin-top: 1rem;
     }
-    ul {
+    /* ul {
         width: 100vw;
         height: 25vh;
     }
@@ -33,5 +54,5 @@ article {
         width: 100vw;
         margin-left: 0;
         position: absolute;
-    }
+    } */
 }

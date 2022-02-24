@@ -662,6 +662,9 @@ footer {
   right: 0.5rem;
   top: 0.5rem;
 }
+.escape-hatch {
+  margin: 0.5rem;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
