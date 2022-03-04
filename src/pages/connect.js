@@ -16,7 +16,7 @@ const ConnectPage = () => (
     <div style={{marginTop: "3rem"}}>
       <p className="center"> In order to make your website dreams come true, we need to turn your abstract idea for a website into some cohesive words and sentences.  Once we can figure out what the heck you want, we’ll do our best to deliver the best options for you!</p>
       <p className="center">Let's get started, please fill out this application.  We’ll look things over and respond quickly to let you know if we can be of service.</p>
-      <form className="center" action="/">
+      <form className="center" name="contact" netlify>
         <label for="name">
           <input className="inputSpace" placeholder="Name" type="text" id="name" name="name"/><br></br>
         </label>

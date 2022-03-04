@@ -12,7 +12,7 @@ const IndexPage = () => (
     <div id="centerMe">
       <Cube 
         heading="DESIGN"
-        subHeading="All this stuff."
+        subHeading="Let's start at the drawing board."
         bttnText="Check it out"
         anchor="/design"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
@@ -21,7 +21,7 @@ const IndexPage = () => (
       />
       <Cube 
         heading="DEVELOP"
-        subHeading="The magic happens."
+        subHeading="Code the future."
         bttnText="Learn more"
         anchor="/develop"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645419249/michael-baccin-XopauR-Nagk-unsplash.jpg"
@@ -30,8 +30,8 @@ const IndexPage = () => (
       />
       <Cube 
         heading="CONNECT"
-        subHeading="Another sub heading."
-        bttnText="Let's chat"
+        subHeading="Let's chat."
+        bttnText="I'm ready"
         anchor="/connect"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplash.jpg"
         img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640806075/donald-giannatti-4qk3nQI3WHY-unsplashbw.jpg"

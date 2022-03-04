@@ -204,7 +204,7 @@
         display: inline-block;
     }
     #centerMe {
-        width: 72vw;
+        width: fit-content;
         padding-top: 20vh;
         margin: 0 auto;
     }
