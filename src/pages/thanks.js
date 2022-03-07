@@ -6,9 +6,12 @@ import Seo from "../components/seo"
 const thanks = () => (
   <Layout>
     <Seo title="Success" />
-    <h1>Thanks!</h1>
-    <p>We got your submission!</p>
-    <a href="/">Go back home</a>
+    <h2 style={{
+        margin: '-41px 44px',
+        position: 'absolute'
+      }}>Thanks!</h2>
+    <p style={{marginLeft: '44px'}}>We got your submission!</p>
+    <a style={{marginLeft: '44px'}}href="/">Go back home</a>
   </Layout>
 )
 

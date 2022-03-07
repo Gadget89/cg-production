@@ -19,9 +19,9 @@ const DevelopPage = ( heading, subHeading, heroImg, anchor ) => (
     <Carousel>
       <CarouselItem 
         heading="Modern Websites" 
-        subHeading="Fast websites are made with modern technologies!"
+        subHeading="Fast websites are made with modern technologies! Embrace the future of the web today! Learn about the tech stack we love to use!"
         anchor="/"
-        cta="I'm in bruh"
+        cta="Learn More"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645483754/hoodh-ahmed-6mzjJDqYU0g-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>

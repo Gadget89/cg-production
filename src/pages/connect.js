@@ -22,19 +22,19 @@ const ConnectPage = () => (
           <input className="inputSpace" placeholder="Name" type="text" id="name" name="name"/><br></br>
         </label>
         <label for="email">
-          <input className="inputSpace" placeholder="Email" type="email" id="email" name="email"/><br></br>
+          <input className="inputSpace" placeholder="Email" type="email" id="email" name="email" required/><br></br>
         </label> 
         <label for="company">
-          <input className="inputSpace" placeholder="Company" type="text" id="company" name="company"/><br></br>
+          <input className="inputSpace" placeholder="Company" type="text" id="company" name="company" required/><br></br>
         </label> 
         <label for="phone">
-          <input className="inputSpace" placeholder="Phone" type="phone" id="phone" name="phone"/><br></br>
+          <input className="inputSpace" placeholder="Phone" type="phone" id="phone" name="phone" required/><br></br>
         </label> 
         <label for="budget">
-          <input className="inputSpace" placeholder="Website" type="text" id="website" name="website"/><br></br>
+          <input className="inputSpace" placeholder="Website" type="text" id="website" name="website" required/><br></br>
         </label> 
         <label for="description">
-          <input className="inputSpace" placeholder="Project description" type="text" id="description" name="description"/><br></br>
+          <input className="inputSpace" placeholder="Project description" type="text" id="description" name="description" required/><br></br>
         </label>
         <ul style={{marginTop: "1rem"}}>
           <li>

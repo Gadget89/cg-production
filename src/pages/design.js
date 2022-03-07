@@ -20,7 +20,7 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
         heading="Brand identity" 
         subHeading="Use the power of design to shape how people of Earth think of your company.  Feel confident knowing you are building on your brand’s heritage going into the future! Streamline your branding across physical and digital products."
         anchor="/"
-        cta="I'm in bruh"
+        cta="Learn More"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645419128/autumn-mott-rodeheaver-gCduzLmwFYM-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
@@ -30,7 +30,7 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
         heading="Content Marketing" 
         subHeading="Launch campaigns and measure success.  Use insights into customer behavior to increase sales.  It all starts with a plan, let us help you take your business to the next level!"
         anchor="/"
-        cta="I'm in bruh"
+        cta="Sounds good"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645482251/will-turner-GTPT_fNFQiE-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>
@@ -38,9 +38,9 @@ const DesignPage = ( heading, subHeading, heroImg ) => (
       </CarouselItem>
       <CarouselItem 
         heading="Service" 
-        subHeading="The cat jumped over the moon."
+        subHeading="We focus on User Experience Design and User Centered Design to build our websites."
         anchor="/services"
-        cta="I'm in bruh"
+        cta="I'm in!"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1645482263/zetong-li-NAP14GEjvh8-unsplash.jpg">
           <h2  className="sub-heading">{heading}</h2>
           <p className="sub-heading">{subHeading}</p>

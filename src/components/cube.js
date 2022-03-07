@@ -9,10 +9,10 @@ const Cube = ({ heading, subHeading, bttnText, anchor, img1, img2, img3 }) => (
     <div className="cube-container">
               <div className="photo-cube">
                 <div className="front photo-desc">
-                  <Link to={ anchor }>
+                  {/* <Link to={ anchor }> */}
                     <h3 className="secondary-header">{ heading }</h3>
                     <img className="cube-img" src={img1} alt={subHeading} />
-                  </Link>
+                  {/* </Link> */}
                 </div>
                 <div className="back photo-desc">
                   <Link
