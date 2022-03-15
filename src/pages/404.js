@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import * as React from "react"
 
 import Layout from "../components/layout"
@@ -5,9 +6,10 @@ import Seo from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
+    <Seo title="Bummer!" />
     <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <p>You just hit a route that doesn&#39;t exist...the sadness.</p>
+    <Link to="/">Take me home!</Link>
   </Layout>
 )
 
