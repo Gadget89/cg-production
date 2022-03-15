@@ -64,7 +64,7 @@ const Carousel = ({ children }) => {
                         updateIndex(activeIndex - 1);
                     }}
                 >
-                    Last
+                    {"<"}
                 </button>
                 {React.Children.map(children, (child, index) => {
                     return (
@@ -84,7 +84,7 @@ const Carousel = ({ children }) => {
                         updateIndex(activeIndex + 1);
                     }}
                 >
-                    Next
+                    {">"}
                 </button>
             </div>        
         </div>

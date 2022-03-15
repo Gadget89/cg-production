@@ -39,8 +39,8 @@ const DevelopPage = ( heading, subHeading, heroImg, anchor ) => (
           <img src={heroImg} alt="Alt" />
       </CarouselItem>
       <CarouselItem 
-        heading="Service" 
-        subHeading="We would love to work with you!"
+        heading="LET'S TALK UX" 
+        subHeading="User centered design should be at the center of all projects."
         anchor="/services"
         cta="Wut"
         heroImg="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1640731004/med-badr-chemmaoui-ZSPBhokqDMc-unsplash.jpg">
@@ -56,27 +56,27 @@ const DevelopPage = ( heading, subHeading, heroImg, anchor ) => (
       }}
     >
       <Cube 
-        heading="BEYOND THE CODE"
+        heading="BLOG"
         subHeading="Take a look at the technologies we love to use!"
-        bttnText="Check it out"
+        bttnText="CHECK IT OUT"
         anchor="/design"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
         img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
         img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
       />
       <Cube 
-        heading="HAND CRAFTED WEBSITES"
+        heading="WEB SERVICES"
         subHeading="We belive every website should start at the drawing board!"
-        bttnText="Learn more"
+        bttnText="PRICING"
         anchor="/design"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
         img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
         img3="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
       />
       <Cube 
-        heading="Time to shine!"
+        heading="CONNECT"
         subHeading="Ready to upgrade your website, we can help!"
-        bttnText="Apply now"
+        bttnText="LET'S TALK"
         anchor="/design"
         img1="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg"
         img2="https://res.cloudinary.com/dmcxpmuqw/image/upload/v1638569229/CP1_roybal.jpg" 
