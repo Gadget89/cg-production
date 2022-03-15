@@ -10,7 +10,11 @@ export const CarouselItem = ({ children, width, heading, subHeading, heroImg, an
             <div className="overlay">
                 <h2  className="sub-heading">{heading}</h2>
                 <p className="sub-heading short-content">{subHeading}</p>
-                <a href={anchor} className="sub-heading cta">{cta}</a>
+                <a 
+                    href={anchor} 
+                    className="sub-heading cta btn-padding btn-width">
+                        {cta}
+                </a>
                 <img className="hero-img" src={heroImg} alt="Whatever"/>
             </div>
         </div>
@@ -33,7 +37,7 @@ const Carousel = ({ children }) => {
             if (!paused) {
                 updateIndex(activeIndex + 1);
             }
-        }, 5000);
+        }, 6000);
 
         return () => {
             if (interval) {
@@ -55,11 +59,12 @@ const Carousel = ({ children }) => {
             </div>  
             <div className="indicators">
                 <button
+                    className="btn-padding"
                     onClick={() => {
                         updateIndex(activeIndex - 1);
                     }}
                 >
-                    Prev
+                    Last
                 </button>
                 {React.Children.map(children, (child, index) => {
                     return (
@@ -74,6 +79,7 @@ const Carousel = ({ children }) => {
                     );
                 })}
                 <button
+                    className="btn-padding"
                     onClick={() => {
                         updateIndex(activeIndex + 1);
                     }}
